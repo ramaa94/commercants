@@ -1,0 +1,53 @@
+#nav{
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 450px;
+}
+/* .nav-link{
+    transition: 0.8s ease;
+} 
+ .nav-link:hover{
+    color: red;
+    transform: scale(1.1);
+
+} */
+#login-panel{
+    background-color: rgba(var(--bs-dark-rgb)); 
+  
+     color: aliceblue; 
+  
+}
+#contain{
+    position: absolute;
+    width: 750px;
+    height: 700px;
+    top:30%;
+    left:25%;
+}
+#login-btn{
+    /* background-color:rgb(118, 52, 52);
+    width:100px;
+    margin-left: -50px; */
+    width: 170px;
+    height: 40px;
+    margin-top: 1em;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 25px rgba(1 1 1 / 20%);  */
+    border: none;
+    font-size: 15px;
+    background-color:rgba(51, 50, 47, 0.15);
+    transition: 0.7s ease ;
+    color:black;
+
+    
+}
+#login-btn:hover{
+     opacity: 0.7;
+     transform: scale(0.9);
+    
+}
+#forgot-ps{
+    color:rgb(118, 52, 52);
+}
